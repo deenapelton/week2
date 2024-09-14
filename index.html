@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid's Party Services</title>
+    <link
+    rel="stylesheet"
+    href="/styles.css"
+    />
+</head>
+<body>
+    <!-- I stuck the links right at the top to be seen and easy to find-->
+    <section> <!--section1-->
+    <div class="menu"><a href="/about.html">About Us</a>
+    <a href="/bookonline.html">Book Online</a>
+    </div>
+</section> <!-- section2 Heading 1 & paragraph-->
+    <!-- I really like how the horizontal line break looks and divides sections-->
+    <section><h1>Children's Party Services</h1>
+      <!-- If I put the marquee in the div it does not work-->
+        <marquee><center><h3>Let's Paint!</h3></center></marquee>
+     <div class="section"
+     <p>We offer unique entertainment for children's parties! We come to your home to entertain the kid's at your party for your convenience.</p>
+    </div>
+</section>
+<section>  <!--section3 Lists-->
+<h2>Services Offered</h2>
+  <div class="section">  <ul>
+         <li>Canvas Painting</li>    
+         <li>Facepainting</li>
+         <li>Karaoke</li>
+         <li>Slime Making</li>
+         <li>Cup Cake Decorating</li>
+         <li> Craft Table</li>
+    </ul></div>
+<!-- I'm removing the horizontal breaks to put a border around the image-->
+</section> 
+<div class="section"> <!--section 4 contains images-->
+    <img src="/Images/facepainting.jpg" width="200" height="200" alt="Little girl facepainted."/>
+    <img src="./Images/cupcake.jpg" width="200" height="200" alt="cupcake with eyes and sprinkles."/>
+    <img src="./Images/slime.jpg" width="200" height="200"alt="little girl making slime"/>
+    <img src="./Images/karaoke.jpg" width="200" height="200" alt="kids singing"/>
+    
+</div>
+<section>    <!--section 5 contains heading 2 and table-->
+   
+<h2>Price List</h2>
+    
+<div class="section">
+    <table border="1">
+        
+            <tr>
+                <th>Services</th>
+                <th>Prices</th>
+            </tr>
+            <tr>
+                <td>Facepainting</td>
+                <td>$275</td>
+            </tr>
+            <tr>
+            <td>Canvas Painting</td>
+            <td>$275</td>
+
+        <tr>
+            <td>Karaoke</td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td>Slime Making</td>
+            <td>$150</td>
+        </tr>
+        <tr>
+            <td>Cupcake Decorating</td>
+            <td>$100</td>
+
+        </tr>
+        <tr>
+            <td>Craft Table</td>
+            <td> $150</td>
+        </tr>
+    
+    </table>
+    </div>
+</section> 
+<section> <!-- contains form-->
+    <h2>Contact Us</h2>
+    <div class="section">
+    <p>
+        Fill out the form below and we will reach out to you.
+    </p>
+    </div>
+    <br/>
+    <div class="section">
+    <form>
+        Do you like to paint?<br/>
+        <input type="radio" name="paint" value="yes">yes
+        <input type="radio" name="paint" value="no">no<br/>
+
+        <input type="text" name="firstName" placeholder="First Name"> 
+        <input type="text" name="lastName" placeholder="Last Name"> <br/>
+        <input type="tel" id="phone" name="phone"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required  placeholder="Phone Number"/>  <br/>
+        <input type="email" name="email" placeholder="email"> <br/>
+        <input type="submit" value="Submit">
+
+    </form>
+    </div>
+</section>
+
+
+</body>
+</html>
